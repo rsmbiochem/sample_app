@@ -2,7 +2,7 @@
 
 /* mixins, variables, etc. */
 
-$grayMediumLight: #eaeaea
+$grayMediumLight: #eaeaea;
 
 
 /* universal */
@@ -50,7 +50,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: @grayLight;
+  color: $grayLight;
 }
 
 P {
@@ -81,22 +81,22 @@ footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid $grayMediumLight;
-  color: @grayLight;
+  color: $grayLight;
   a {
-    color: @gray;
+    color: $gray;
    &:hover {
-     color: @grayDarker;
+     color: $grayDarker;
    }
   }
   small {
     float: left;
   }
   ul {
-  float: right;
-  list-style: none;
-  li {
-    float: left;
-    margin-left: 10px;
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 10px;
+    }
   }
- }
 }
